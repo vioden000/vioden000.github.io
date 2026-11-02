@@ -1,13 +1,13 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>E-Book | Vioden's Blog</title><meta name="author" content="Vioden"><meta name="copyright" content="Vioden"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="机器人学导论 Introduction to Robotics — 机器人学经典教材，适合入门与复习。           在线阅读            下载 PDF（约 19 MB）               小提示：手机浏览器可能不支持内嵌预览，请点击上方「在线阅读」或「下载 PDF」直接打开。      .ebook-actions { display: flex; flex-wrap:">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>E-Book | Vioden's Blog</title><meta name="author" content="Vioden"><meta name="copyright" content="Vioden"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="电子书书架 点击「在线阅读」才会加载 PDF；左侧可展开&#x2F;搜索章节目录，点击章节直接跳到对应页码。            跳转 关闭预览           从左侧目录选择章节，或使用上方页码&#x2F;分卷切换        .eb { --eb-line: var(--border-color, #e3e8f7); --eb-card: var(--card-bg, #fff); --eb-fg:">
 <meta property="og:type" content="website">
 <meta property="og:title" content="E-Book">
 <meta property="og:url" content="https://vioden000.github.io/ebook/index.html">
 <meta property="og:site_name" content="Vioden&#39;s Blog">
-<meta property="og:description" content="机器人学导论 Introduction to Robotics — 机器人学经典教材，适合入门与复习。           在线阅读            下载 PDF（约 19 MB）               小提示：手机浏览器可能不支持内嵌预览，请点击上方「在线阅读」或「下载 PDF」直接打开。      .ebook-actions { display: flex; flex-wrap:">
+<meta property="og:description" content="电子书书架 点击「在线阅读」才会加载 PDF；左侧可展开&#x2F;搜索章节目录，点击章节直接跳到对应页码。            跳转 关闭预览           从左侧目录选择章节，或使用上方页码&#x2F;分卷切换        .eb { --eb-line: var(--border-color, #e3e8f7); --eb-card: var(--card-bg, #fff); --eb-fg:">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://github.com/vioden000.png">
-<meta property="article:published_time" content="2026-11-02T07:20:00.000Z">
-<meta property="article:modified_time" content="2026-11-02T07:19:31.108Z">
+<meta property="article:published_time" content="2026-11-02T04:00:00.000Z">
+<meta property="article:modified_time" content="2026-11-02T08:07:38.761Z">
 <meta property="article:author" content="Vioden">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://github.com/vioden000.png"><script type="application/ld+json"></script><link rel="shortcut icon" href="/img/favicon.ico"><link rel="canonical" href="https://vioden000.github.io/ebook/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.7.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css"><script>
@@ -215,47 +215,313 @@
     btf.addGlobalFn('pjaxSend', preloader.initLoading, 'preloader_init')
     btf.addGlobalFn('pjaxComplete', preloader.endLoading, 'preloader_end')
   }
-})()</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="https://github.com/vioden000.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="/ebook/"><i class="fa-fw fas fa-book"></i><span> E-Book</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">Vioden's Blog</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="/ebook/"><i class="fa-fw fas fa-book"></i><span> E-Book</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><h1 class="title-seo">E-Book</h1></header><main class="layout" id="content-inner"><div id="page"><div class="page-title">E-Book</div><div class="container" id="article-container"><h2 id="机器人学导论"><a href="#机器人学导论" class="headerlink" title="机器人学导论"></a>机器人学导论</h2><blockquote>
-<p>Introduction to Robotics — 机器人学经典教材，适合入门与复习。</p>
-</blockquote>
-<div class="ebook-actions">
-  <a class="ebook-btn primary" href="/ebook/robotics-introduction.pdf" target="_blank" rel="noopener">
-    <i class="fas fa-book-open"></i> 在线阅读
-  </a>
-  <a class="ebook-btn" href="/ebook/robotics-introduction.pdf" download>
-    <i class="fas fa-download"></i> 下载 PDF（约 19 MB）
-  </a>
+})()</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="https://github.com/vioden000.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="/ebook/"><i class="fa-fw fas fa-book"></i><span> E-Book</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">Vioden's Blog</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="/ebook/"><i class="fa-fw fas fa-book"></i><span> E-Book</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><h1 class="title-seo">E-Book</h1></header><main class="layout" id="content-inner"><div id="page"><div class="page-title">E-Book</div><div class="container" id="article-container"><div class="eb" id="eb">
+<div class="eb-head">
+<div class="eb-headline"><i class="fas fa-book-open"></i> 电子书书架</div>
+<div class="eb-sub">点击「在线阅读」才会加载 PDF；左侧可展开/搜索章节目录，点击章节直接跳到对应页码。</div>
 </div>
-
-<div class="ebook-viewer">
-  <iframe src="/ebook/robotics-introduction.pdf#view=FitH" title="机器人学导论 PDF" loading="lazy"></iframe>
+<div class="eb-toolbar">
+<input id="eb-q" class="eb-input" type="search" placeholder="搜索书名 / 作者 / 标签…" autocomplete="off">
+<span class="eb-count" id="eb-count"></span>
 </div>
-
-<p class="ebook-tip">
-  小提示：手机浏览器可能不支持内嵌预览，请点击上方「在线阅读」或「下载 PDF」直接打开。
-</p>
+<div class="eb-grid" id="eb-grid"></div>
+<section class="eb-viewer" id="eb-viewer">
+<div class="eb-vbar">
+<div class="eb-vbar-title"><span id="eb-vtitle"></span><span class="eb-vbar-sub" id="eb-vsub"></span></div>
+<div class="eb-vbar-tools">
+<div class="eb-vols" id="eb-vols"></div>
+<div class="eb-jump"><input id="eb-page" class="eb-input eb-page" type="number" min="1" placeholder="页码"><button id="eb-go" class="eb-btn eb-btn-mini">跳转</button></div>
+<button id="eb-close" class="eb-btn eb-btn-mini eb-btn-ghost">关闭预览</button>
+</div>
+</div>
+<div class="eb-vbody">
+<aside class="eb-toc">
+<input id="eb-tq" class="eb-input eb-toc-search" type="search" placeholder="搜索章节目录…" autocomplete="off">
+<div class="eb-toc-list" id="eb-toc-list"></div>
+</aside>
+<div class="eb-stage">
+<iframe id="eb-frame" title="PDF 在线预览" allowfullscreen></iframe>
+<div class="eb-stage-tip" id="eb-stage-tip"><i class="fas fa-hand-pointer"></i> 从左侧目录选择章节，或使用上方页码/分卷切换</div>
+</div>
+</div>
+</section>
+<div class="eb-foot" id="eb-foot"></div>
+</div>
 
 <style>
-  .ebook-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0; }
-  .ebook-btn {
-    display: inline-flex; align-items: center; gap: 6px;
-    padding: 9px 18px; border-radius: 20px; font-size: 14px;
-    background: #f2f2f2; color: #4c4948 !important; text-decoration: none !important;
-    transition: all .25s ease;
+.eb { --eb-line: var(--border-color, #e3e8f7); --eb-card: var(--card-bg, #fff); --eb-fg: var(--font-color, #4c4948); --eb-mute: #858585; }
+.eb * { box-sizing: border-box; }
+.eb-head { margin-bottom: 14px; }
+.eb-headline { font-size: 1.35em; font-weight: 700; color: var(--eb-fg); }
+.eb-headline i { color: var(--theme-color, #49b1f5); margin-right: 6px; }
+.eb-sub { font-size: 0.86em; color: var(--eb-mute); margin-top: 6px; line-height: 1.6; }
+.eb-toolbar { display: flex; align-items: center; gap: 12px; margin: 18px 0; flex-wrap: wrap; }
+.eb-input { border: 1px solid var(--eb-line); background: var(--eb-card); color: var(--eb-fg); border-radius: 8px; padding: 8px 12px; font-size: 0.92em; outline: none; transition: border-color .2s, box-shadow .2s; }
+.eb-input:focus { border-color: var(--theme-color, #49b1f5); box-shadow: 0 0 0 3px rgba(73,177,245,.15); }
+#eb-q { flex: 1 1 240px; max-width: 420px; }
+.eb-count { font-size: 0.84em; color: var(--eb-mute); }
+.eb-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 18px; }
+.eb-card { display: flex; gap: 14px; padding: 14px; border: 1px solid var(--eb-line); border-radius: 12px; background: var(--eb-card); transition: transform .2s, box-shadow .2s; }
+.eb-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,.08); }
+.eb-cover { position: relative; flex: 0 0 96px; height: 136px; border-radius: 8px; overflow: hidden; background: linear-gradient(145deg, #49b1f5, #2b6cb0); color: #fff; padding: 10px; display: flex; flex-direction: column; justify-content: space-between; box-shadow: inset -6px 0 10px -6px rgba(0,0,0,.45); }
+.eb-cover strong { font-size: 0.95em; line-height: 1.35; font-weight: 700; text-shadow: 0 1px 3px rgba(0,0,0,.25); }
+.eb-cover span { font-size: 0.7em; opacity: .85; }
+.eb-info { min-width: 0; display: flex; flex-direction: column; gap: 6px; flex: 1 1 auto; }
+.eb-name { font-size: 1.02em; font-weight: 700; color: var(--eb-fg); margin: 0; line-height: 1.4; }
+.eb-meta { font-size: 0.78em; color: var(--eb-mute); line-height: 1.5; }
+.eb-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.eb-tag { font-size: 0.72em; padding: 2px 8px; border-radius: 999px; background: rgba(73,177,245,.12); color: var(--theme-color, #49b1f5); }
+.eb-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; }
+.eb-btn { cursor: pointer; border: none; border-radius: 8px; padding: 7px 14px; font-size: 0.84em; color: #fff; background: var(--theme-color, #49b1f5); transition: opacity .2s, transform .2s; }
+.eb-btn:hover { opacity: .88; }
+.eb-btn-ghost { background: transparent; color: var(--eb-fg); border: 1px solid var(--eb-line); }
+.eb-btn-mini { padding: 5px 10px; font-size: 0.8em; }
+.eb-dl { display: none; flex-wrap: wrap; gap: 8px; margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--eb-line); }
+.eb-dl.open { display: flex; }
+.eb-dl a { font-size: 0.78em; color: var(--theme-color, #49b1f5); text-decoration: none; border: 1px solid rgba(73,177,245,.35); border-radius: 6px; padding: 4px 9px; }
+.eb-dl a:hover { background: rgba(73,177,245,.1); }
+.eb-viewer { display: none; margin-top: 26px; border: 1px solid var(--eb-line); border-radius: 12px; overflow: hidden; background: var(--eb-card); }
+.eb-viewer.open { display: block; }
+.eb-vbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; padding: 12px 14px; border-bottom: 1px solid var(--eb-line); background: rgba(73,177,245,.06); }
+.eb-vbar-title { font-weight: 700; color: var(--eb-fg); font-size: 0.98em; }
+.eb-vbar-sub { font-weight: 400; font-size: 0.78em; color: var(--eb-mute); margin-left: 8px; }
+.eb-vbar-tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.eb-vols { display: flex; flex-wrap: wrap; gap: 6px; }
+.eb-vol { cursor: pointer; font-size: 0.78em; border: 1px solid var(--eb-line); background: transparent; color: var(--eb-fg); border-radius: 999px; padding: 4px 11px; }
+.eb-vol.active { background: var(--theme-color, #49b1f5); border-color: var(--theme-color, #49b1f5); color: #fff; }
+.eb-jump { display: flex; gap: 6px; align-items: center; }
+.eb-page { width: 76px; padding: 5px 8px; font-size: 0.8em; }
+.eb-vbody { display: grid; grid-template-columns: 288px 1fr; min-height: 62vh; }
+.eb-toc { border-right: 1px solid var(--eb-line); padding: 12px; display: flex; flex-direction: column; gap: 10px; max-height: 78vh; }
+.eb-toc-search { width: 100%; }
+.eb-toc-list { overflow: auto; flex: 1 1 auto; font-size: 0.82em; padding-right: 4px; }
+.eb-toc-list ul { list-style: none; margin: 0; padding-left: 12px; }
+.eb-toc-list > ul { padding-left: 0; }
+.eb-toc-item { display: flex; gap: 6px; align-items: baseline; padding: 3px 6px; border-radius: 6px; cursor: pointer; color: var(--eb-fg); line-height: 1.5; }
+.eb-toc-item:hover { background: rgba(73,177,245,.1); }
+.eb-toc-item .pg { margin-left: auto; flex: 0 0 auto; font-size: 0.85em; color: var(--eb-mute); }
+.eb-toc-item.disabled { opacity: .45; cursor: default; }
+.eb-toc-item.match { background: rgba(255,196,0,.18); }
+.eb-toc details > summary { cursor: pointer; color: var(--eb-fg); padding: 3px 6px; border-radius: 6px; list-style: none; }
+.eb-toc details > summary::-webkit-details-marker { display: none; }
+.eb-toc details > summary::before { content: "▸ "; color: var(--theme-color, #49b1f5); }
+.eb-toc details[open] > summary::before { content: "▾ "; }
+.eb-toc details > summary:hover { background: rgba(73,177,245,.1); }
+.eb-stage { position: relative; background: #f2f3f5; }
+.eb-stage iframe { width: 100%; height: 78vh; min-height: 520px; border: 0; display: block; background: #fff; }
+.eb-stage-tip { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; gap: 8px; color: #8a8a8a; font-size: 0.9em; background: #f5f6f8; }
+.eb-stage.loaded .eb-stage-tip { display: none; }
+.eb-empty { padding: 30px; text-align: center; color: var(--eb-mute); }
+.eb-foot { margin-top: 16px; font-size: 0.78em; color: var(--eb-mute); line-height: 1.7; }
+[data-theme="dark"] .eb { --eb-line: #3b3b3b; --eb-card: #1f1f1f; --eb-fg: #d8d8d8; --eb-mute: #9a9a9a; }
+[data-theme="dark"] .eb-stage, [data-theme="dark"] .eb-stage-tip { background: #171717; }
+[data-theme="dark"] .eb-vols .eb-vol { color: #d8d8d8; }
+@media (max-width: 860px) {
+  .eb-vbody { grid-template-columns: 1fr; }
+  .eb-toc { max-height: 34vh; border-right: 0; border-bottom: 1px solid var(--eb-line); }
+  .eb-stage iframe { height: 62vh; min-height: 380px; }
+}
+</style>
+
+<script>
+(function () {
+  var DATA_URL = '/ebook/books.json';
+  var $ = function (id) { return document.getElementById(id); };
+  var state = { books: [], book: null, vol: 0, tick: 0 };
+
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
   }
-  .ebook-btn:hover { background: #e3e3e3; transform: translateY(-1px); }
-  .ebook-btn.primary { background: #49b1f5; color: #fff !important; }
-  .ebook-btn.primary:hover { background: #3a9fdd; }
-  .ebook-viewer {
-    margin-top: 10px; border-radius: 10px; overflow: hidden;
-    box-shadow: 0 2px 12px rgba(0,0,0,.12);
+  function fmt(n) { return n == null ? '—' : n; }
+
+  function volumeOf(book, page) {
+    for (var i = 0; i < book.volumes.length; i++) {
+      var v = book.volumes[i];
+      if (page >= v.from && page <= v.to) return i;
+    }
+    return 0;
   }
-  .ebook-viewer iframe { display: block; width: 100%; height: 80vh; min-height: 520px; border: none; }
-  .ebook-tip { font-size: 13px; color: #858585; }
-  [data-theme="dark"] .ebook-btn { background: #2d2d2d; color: #c5c5c5 !important; }
-  [data-theme="dark"] .ebook-btn:hover { background: #3a3a3a; }
-  [data-theme="dark"] .ebook-btn.primary { background: #49b1f5; color: #fff !important; }
-</style></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="https://github.com/vioden000.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Vioden</div><div class="author-info-description">记录技术笔记与思考</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/vioden000"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/vioden000" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:vioden@foxmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到我的博客，这里记录技术笔记与日常思考。</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/11/02/github-guide/" title="GitHub 使用指南">GitHub 使用指南</a><time datetime="2026-11-01T16:45:00.000Z" title="发表于 2026-11-02 00:45:00">2026-11-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/11/02/hello-world/" title="Hello World">Hello World</a><time datetime="2026-11-01T16:13:03.364Z" title="发表于 2026-11-02 00:13:03">2026-11-02</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline"><i class="fas fa-folder-open"></i><span>分类</span></div>
+
+  function renderCards(list) {
+    var grid = $('eb-grid');
+    grid.innerHTML = '';
+    $('eb-count').textContent = list.length ? '共 ' + state.books.length + ' 本，匹配 ' + list.length + ' 本' : '没有匹配的电子书';
+    if (!list.length) {
+      grid.appendChild(el('div', 'eb-empty', '试试搜索「机器人」「控制」「教材」…'));
+      return;
+    }
+    list.forEach(function (b) {
+      var card = el('article', 'eb-card');
+      var cover = el('div', 'eb-cover');
+      cover.appendChild(el('strong', null, b.title));
+      cover.appendChild(el('span', null, b.pages + ' 页'));
+      var info = el('div', 'eb-info');
+      info.appendChild(el('h3', 'eb-name', b.title));
+      var meta = el('div', 'eb-meta', b.author + ' · ' + b.pages + ' 页 · ' + b.volumes.length + ' 个分卷');
+      info.appendChild(meta);
+      if (b.subtitle) info.appendChild(el('div', 'eb-meta', b.subtitle));
+      var tags = el('div', 'eb-tags');
+      (b.tags || []).forEach(function (t) { tags.appendChild(el('span', 'eb-tag', t)); });
+      info.appendChild(tags);
+
+      var dl = el('div', 'eb-dl');
+      b.volumes.forEach(function (v) {
+        var a = el('a', null, (v.short ? v.short + ' ' : '') + v.label + ' · ' + v.size);
+        a.href = '/ebook/' + v.file;
+        a.setAttribute('download', '');
+        dl.appendChild(a);
+      });
+
+      var actions = el('div', 'eb-actions');
+      var read = el('button', 'eb-btn', '在线阅读');
+      read.addEventListener('click', function () { openBook(b, 0, 1); });
+      var dlBtn = el('button', 'eb-btn eb-btn-ghost', '下载');
+      dlBtn.addEventListener('click', function () { dl.classList.toggle('open'); });
+      actions.appendChild(read);
+      actions.appendChild(dlBtn);
+      info.appendChild(actions);
+      info.appendChild(dl);
+      card.appendChild(cover);
+      card.appendChild(info);
+      grid.appendChild(card);
+    });
+  }
+
+  function filterBooks() {
+    var q = ($('eb-q').value || '').trim().toLowerCase();
+    if (!q) return renderCards(state.books);
+    var hits = state.books.filter(function (b) {
+      var hay = [b.title, b.subtitle, b.author].concat(b.tags || []).join(' ').toLowerCase();
+      if (hay.indexOf(q) >= 0) return true;
+      return tocHas(b.toc, q);
+    });
+    renderCards(hits);
+  }
+  function tocHas(toc, q) {
+    for (var i = 0; i < toc.length; i++) {
+      if ((toc[i].t || '').toLowerCase().indexOf(q) >= 0) return true;
+      if (toc[i].c && tocHas(toc[i].c, q)) return true;
+    }
+    return false;
+  }
+
+  function renderVols() {
+    var box = $('eb-vols');
+    box.innerHTML = '';
+    var b = state.book;
+    b.volumes.forEach(function (v, i) {
+      var btn = el('button', 'eb-vol' + (i === state.vol ? ' active' : ''), (v.short ? v.short : '') + ' ' + v.label + '（' + v.from + '–' + v.to + '页）');
+      btn.addEventListener('click', function () { loadVolume(i, v.from); });
+      box.appendChild(btn);
+    });
+    if (b.volumes.length === 1) box.style.display = 'none'; else box.style.display = '';
+  }
+
+  function renderToc() {
+    var box = $('eb-toc-list');
+    var q = ($('eb-tq').value || '').trim().toLowerCase();
+    box.innerHTML = '';
+    var root = el('ul');
+    var any = false;
+    function walk(nodes, parent, depth) {
+      nodes.forEach(function (n) {
+        var kids = n.c || [];
+        var hit = !q || (n.t || '').toLowerCase().indexOf(q) >= 0 || tocHas(kids, q);
+        if (!hit) return;
+        any = true;
+        var li = el('li');
+        if (kids.length) {
+          var det = el('details');
+          if (q || depth === 0) det.open = true;
+          var sum = el('summary');
+          sum.appendChild(el('span', null, fmt(n.t)));
+          if (n.p) sum.appendChild(el('span', 'eb-toc-item pg', n.p));
+          sum.addEventListener('click', function (e) {
+            if (n.p) { e.preventDefault(); jump(n.p); }
+          });
+          det.appendChild(sum);
+          var sub = el('ul');
+          walk(kids, sub, depth + 1);
+          det.appendChild(sub);
+          li.appendChild(det);
+        } else {
+          var item = el('div', 'eb-toc-item' + (n.p ? '' : ' disabled'));
+          if (q && (n.t || '').toLowerCase().indexOf(q) >= 0) item.classList.add('match');
+          item.appendChild(el('span', null, fmt(n.t)));
+          item.appendChild(el('span', 'pg', n.p || ''));
+          if (n.p) item.addEventListener('click', function () { jump(n.p); });
+          li.appendChild(item);
+        }
+        parent.appendChild(li);
+      });
+    }
+    walk(state.book.toc, root, 0);
+    box.appendChild(root);
+    if (!any) box.appendChild(el('div', 'eb-empty', '目录中没有匹配的章节'));
+  }
+
+  function loadVolume(vi, page) {
+    state.vol = vi;
+    var b = state.book;
+    var v = b.volumes[vi];
+    var local = Math.max(1, Math.min((page || v.from) - v.from + 1, v.to - v.from + 1));
+    var src = '/ebook/' + v.file + '?v=' + (++state.tick) + '#page=' + local + '&view=FitH';
+    $('eb-frame').src = src;
+    $('eb-stage-tip').parentNode.classList.add('loaded');
+    renderVols();
+    $('eb-page').value = '';
+    $('eb-page').setAttribute('placeholder', '页码 1-' + b.pages);
+  }
+
+  function jump(page) {
+    if (!state.book || !page) return;
+    var vi = volumeOf(state.book, page);
+    loadVolume(vi, page);
+  }
+
+  function openBook(book, vi, page) {
+    state.book = book;
+    var viewer = $('eb-viewer');
+    viewer.classList.add('open');
+    $('eb-vtitle').textContent = book.title;
+    $('eb-vsub').textContent = book.author + ' · ' + book.pages + ' 页';
+    $('eb-tq').value = '';
+    renderVols();
+    renderToc();
+    loadVolume(vi || 0, page || 1);
+    viewer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function bind() {
+    $('eb-q').addEventListener('input', filterBooks);
+    $('eb-tq').addEventListener('input', renderToc);
+    $('eb-close').addEventListener('click', function () {
+      $('eb-viewer').classList.remove('open');
+      $('eb-frame').src = 'about:blank';
+      $('eb-stage-tip').parentNode.classList.remove('loaded');
+    });
+    $('eb-go').addEventListener('click', function () {
+      var p = parseInt($('eb-page').value, 10);
+      if (p) jump(p); else alert('请输入页码');
+    });
+    $('eb-page').addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') { var p = parseInt(this.value, 10); if (p) jump(p); }
+    });
+  }
+
+  fetch(DATA_URL).then(function (r) { return r.json(); }).then(function (data) {
+    state.books = data.books || [];
+    $('eb-foot').textContent = data.note || '';
+    renderCards(state.books);
+    bind();
+  }).catch(function (e) {
+    $('eb-grid').innerHTML = '<div class="eb-empty">书架数据加载失败：' + e.message + '</div>';
+  });
+})();
+</script></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="https://github.com/vioden000.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Vioden</div><div class="author-info-description">记录技术笔记与思考</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/vioden000"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/vioden000" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:vioden@foxmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到我的博客，这里记录技术笔记与日常思考。</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/11/02/github-guide/" title="GitHub 使用指南">GitHub 使用指南</a><time datetime="2026-11-01T16:45:00.000Z" title="发表于 2026-11-02 00:45:00">2026-11-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/11/02/hello-world/" title="Hello World">Hello World</a><time datetime="2026-11-01T16:13:03.364Z" title="发表于 2026-11-02 00:13:03">2026-11-02</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline"><i class="fas fa-folder-open"></i><span>分类</span></div>
           <ul class="card-category-list" id="aside-cat-list">
             <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%B7%A5%E5%85%B7/"><span class="card-category-list-name">工具</span><span class="card-category-list-count">1</span></a></li>
           </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 1.1em; color: #999">教程</a> <a href="/tags/Git/" style="font-size: 1.1em; color: #999">Git</a> <a href="/tags/GitHub/" style="font-size: 1.1em; color: #999">GitHub</a></div></div><div class="card-widget card-archives">
@@ -273,4 +539,4 @@
         </li>
       
     </ul>
-  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">2</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2026-11-02T07:20:45.639Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2026 By Vioden</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.2</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.7.0</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.7.0"></script><script src="/js/main.js?v=5.7.0"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章..." type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.7.0"></script></div></div></body></html>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">2</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2026-11-02T08:08:26.957Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2026 By Vioden</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.2</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.7.0</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.7.0"></script><script src="/js/main.js?v=5.7.0"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章..." type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.7.0"></script></div></div></body></html>
